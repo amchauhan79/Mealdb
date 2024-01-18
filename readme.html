@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content= 
+        "width=device-width, initial-scale=1.0"> 
+	<title>Mealdb APP Readme</title>
+	<style> 
+        
+          
+        body { 
+            width: 100vw;
+			
+			background-color:#717D7E;
+        } 
+		
+		#main{
+			width:80vw;
+			margin-left:10vw;
+			margin-right:10vw;
+		}
+        
+        .section { 
+		    
+            
+            background-color:#E5E7E9; 
+            font-size:15px; 
+            color: gary; 			
+            text-align: justify; 
+            /*
+			height:auto; 
+			margin:20px 5px;
+			border-bottom:2px;
+			position:relative;
+            width: 100vw; 
+			*/
+			padding:10px;
+        } 
+          
+        .one, 
+        .three { 
+            background-color: #E5E7E9; 
+        } 
+          
+        .nav { 
+			/*
+			position:relative;
+            width: 100vw; 
+            height: 100px; 
+			margin:20px 5px; 
+			*/
+            background-color: #AAB7B8; 
+            font-size: large; 
+            color: gray; 
+            text-align: center; 
+            
+            display: flex; 
+            flex-direction: row; 
+            justify-content: space-around; 
+            place-items: center; 
+        } 
+          
+        .btn { 
+            color: white; 
+            background-color:#717D7E; 
+            height:30px; 
+            width:150px; 
+            padding: 2px; 
+            border: 2px solid #AAB7B8; 
+            text-decoration: none; 
+        } 
+		
+    </style> 
+</head>
+<body>
+<div id="main">
+	<div class="nav"> 
+        <a href="#section1" class="btn">Intro</a> 
+        <a href="#section2" class="btn">Description</a> 
+        <a href="#section3" class="btn">Functions</a> 
+        <a href="#section4" class="btn">Screenshot</a> 
+    </div> 
+    <div class="section one" id="section1"> 
+		<h3>Introduction:</h3>
+        <p>This is a simple Meal application built using pure HTML, Javascript and CSS. </p>
+    </div> 
+    <div class="section two" id="section2"> 
+        <h3>Description:</h3>
+			<p>The main feature of this application is to search for food recipe using the Themealdb API. The API returns a variety of data 
+				related to the searched recipe, such as ingredients, instructions, and nutritional information. The app then displays this 
+				information in an easy-to-read format, allowing users to quickly find the recipe they are looking for.
+				The application also include the ability to see the more details regarding the dishes and can see the youtube video of how to 
+				create that dish.Users can also mark the dish as a favourite dish. Once dish is marked as favourite, it gets into favourite list
+				in the favourite section. User can see all the favourite dishes and can remove particular dish from the favourite list.</p>
+    </div> 
+    <div class="section three" id="section3">
+		<h3>Funcationality:</h3>
+		<ul>
+			<li>Search Meal by name</li>
+			<li> Auto sugestion on pressed keyword</li>
+			<li> Save favrouite meals for future use</li>
+			<li> Ability to restore saved meals even after reopening the browser</li>
+			<li> Works seamlessly on both mobile and desktop devices</li>
+			<li><a href='https://www.loom.com/share/ca5d41eb110d4c79b27b2d2040387dc3?sid=94a6b3ff-0c75-4047-90eb-658e34304e82'> Link to video </a></li>
+		</ul>
+        <P>When user type in searchbox, mealdb API response is presented to user in user friendly card layout. 
+		   Here we can see image of dish, name, more details button and like button. Clicking on more details redirect us to new page which 
+		   contain more details of dish such as category, region or country name to which dish belong, more information about dish and watch video button.
+		   Watch video button is linked to youtube where user can find recipe of dish. If user clicks on like button then 
+		   dish will be saved in favourite section. Sidebar contain favourite section which shows all dishes marked as favourite.
+		   This section is saved even if browser is closed and re-opened. </p>
+
+		
+    </div> 
+    <div class="section four" id="section4"> 
+        <h3>Image:</h3>
+		<div >
+		<img src="image1.jpg" alt="search-result" width="500" /><br>
+		<img src="image2.jpg" alt="more details" width="500" /><br>
+		<img src="image3.jpg" alt="favourite section" width="500" /><br>
+
+		</div>
+    </div> 
+</div>
+</body>
+</html>
